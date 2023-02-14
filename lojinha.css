@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Cookie&display=swap');
+/* font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Cookie', cursive; */
+/* estilização do fundo */
+* {
+    margin: 0;
+    padding: 0;
+}
+#fundo {
+    position: fixed; 
+    /* background-image: url(); */
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+section:nth-child(2n) {
+    background-color: gray;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+/* estilização do header */
+header {
+    background-color: gray;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+nav {
+    margin-right: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+header li {
+    margin: 10px;
+    cursor: pointer;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+#titulo1 {
+    font-family: 'Cookie', cursive;
+    margin-right: 5px;
+    font-size: 25px;
+}
+#titulo2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+/* estilização da section1 */
+#section1 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+article {
+    display: flex;
+    justify-content: center;
+}
+article div {
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 0.2) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    cursor: pointer;
+}
+article div:hover {
+    background-color: lightgray;
+    width: 365px;
+    height: 415px;
+}
+article div img{
+    width: 200px;
+    height: 250px;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+/* estilização da section2 */
+#section2 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+/* estilização da section3 */
+#section3 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+/* Olá, gostaria de encomendar a lembrancinha tal(0001) quantidade: (valor do input) */
